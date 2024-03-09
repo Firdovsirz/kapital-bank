@@ -1,0 +1,218 @@
+footer {
+    background: #2e3131;
+    padding: 40px 150px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+.kapital-bank ul li a:hover {
+    color: #f45369;
+}
+
+.products,
+.quick-links,
+.kapital-bank {
+    width: fit-content;
+}
+
+.products h1,
+.quick-links h1,
+.kapital-bank h1,
+.other h1 {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.products ul,
+.quick-links ul,
+.kapital-bank ul,
+.other ul {
+    width: fit-content;
+}
+
+.products ul li,
+.quick-links ul,
+.kapital-bank ul li,
+.other ul li {
+    width: fit-content;
+    margin-block: 10px;
+}
+
+.products ul li a,
+.quick-links ul li a,
+.kapital-bank ul li a,
+.other ul li a {
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.products ul li a:hover,
+.kapital-bank ul li a:hover,
+.quick-links ul li a:hover,
+.other ul li a:hover {
+    color: #f45369;
+}
+
+.download-application h1 {
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.download-application .apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.qr {
+    width: 120px;
+}
+
+.store {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.play,
+.apple,
+.app-gallery {
+    width: fit-content;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.play-text,
+.apple-text,
+.app-gallery-text {
+    width: fit-content;
+}
+
+.google-play,
+.app-store,
+.gallery-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.play-download,
+.app-download,
+.gallery-download {
+    font-size: 12px;
+}
+
+.apple {
+    padding: 6px 16px;
+}
+
+.apple i {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.app-gallery {
+    padding: 6px 16px;
+}
+
+.app-gallery img {
+    width: 30px;
+    height: 30px;
+    margin-right: 9px;
+}
+
+.social-medias {
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.social-medias i {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.social-medias i:hover {
+    color: #ef3e42;
+}
+
+.footer-call {
+    display: flex;
+    align-items: center;
+    border: 1px solid #f45369;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-call a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-call i {
+    color: #ef3e42;
+    margin-right: 5px;
+    transform: rotate(270deg);
+    cursor: pointer;
+}
+
+.footer-line {
+    width: 100%;
+    height: 0.002cm;
+    background-color: rgb(103, 103, 103);
+}
+
+.laws {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.laws p {
+    color: white;
+}
+
+.laws ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.laws ul li img {
+    width: 70px;
+}
+
+.footer-info {
+    width: 600px;
+    margin-top: 30px;
+    color: white;
+}

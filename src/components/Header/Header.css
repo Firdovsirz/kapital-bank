@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 200px;
+    height: 42px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 180px;
+}
+
+.main-nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.fa-location-dot {
+    color: #dc3545;
+}
+
+.fa-magnifying-glass {
+    border: 1px solid #dc3545;
+    color: #dc3545;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.physical-person {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.for-business {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.service-network {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.en {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.ru {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.secondary-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 180px;
+    background: #e8ecf1;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.pages li {
+    list-style-type: none;
+}
+
+.pages li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.pages li a:after {
+    content: "";
+    width: 0;
+    height: 0.06cm;
+    background: #f45369;
+    position: absolute;
+    left: 0;
+    top: 42px;
+    transition: 0.3s ease;
+}
+
+.pages li a:hover:after {
+    width: 100%;
+}
+
+.birbank-btn {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    border: 1px solid #f45369;
+    background: #f45369;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.birbank-btn img {
+    width: 20px;
+}
